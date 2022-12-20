@@ -1,0 +1,75 @@
+@use 'variables';
+//footer
+
+.footer-box{
+    h2{
+      margin-bottom: 30px;
+      color: variables.$color-text-font;
+      font-weight: 700;
+      background: none;
+  
+    }
+
+    i{
+      background: none;
+      font-size: 20px;
+    }
+    a{
+      margin-top: 10px;
+      color: variables.$color-text-font;
+      font-weight: 600;
+      background: none;
+  
+    }
+  
+    a:hover{
+      opacity: 0.8;
+      background: none;
+  
+    }
+   }
+  
+   .footer-logo{
+      background: none;
+      img{
+          background: none;
+          width: 150px;
+          margin-top: -190px;
+      }
+   }
+   .text-footer{
+      p{
+          margin-top: 10px;
+          background: none;
+          font-size: 20px;
+  
+      }
+
+      i{
+
+        font-size: 40px;
+        background: none;
+      }
+      
+  }
+   .box-copyrigth{
+    p{
+      margin-top: 20px;
+      color: variables.$color-text-font;
+      background: none;
+  
+     }
+     b{
+      background: none;
+  
+     }
+    hr{
+       border: none;
+       height: 1px;
+       background-color: variables.$color-text-font;
+       background: none;
+  
+      }
+   }
+
+ 

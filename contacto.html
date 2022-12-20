@@ -1,0 +1,133 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="estilos/contacto.css" />
+    <link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet">
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <title>Contacto GPS</title>
+  </head>
+  <body>
+    <header>
+      <div class="container_header">
+        <div class="logo">
+          <a href="#">
+            <img src="img/logo.png" alt="" />
+          </a>
+        </div>
+        <div class="menu">
+          <input type="checkbox" id="chek_menu" />
+          <label id="label_check" for="chek_menu">
+            <i class="lni lni-menu  icon-menu"></i>
+          </label>
+          <nav>
+            <ul>
+              <li><a href="#" id="select"></a></li>
+              <li><a href="index.html" target="_blank">Inicio</a></li>
+              <li><a href="nosotros.html " target="_blank">Nosotros</a></li>
+              <li><a href="servicios.html" target="_blank">Servicios</a></li>
+              <li><a href="productos.html" target="_blank">Productos</a></li>
+              <li><a href="contacto.html">Contacto</a></li>
+              <li> <a href="#">Redes</a></li>
+            </ul>
+          </nav>
+        </div>
+
+      </div>
+    </header>
+    <main>
+      <h1>CONTÁCTENOS</h1>
+      <div class="contenedor-contacto">
+        <div class="contacto-caja">
+          <form action="" class="form-contacto">
+            <label for="" class="etiquetas-contacto">Nombre y Apellido</label>
+            <input type="text" placeholder="Nombre.." required />
+            <label for="" class="etiquetas-contacto">Email</label>
+            <input type="email" placeholder="email.." required />
+            <label for="" class="etiquetas-contacto">Telefono</label>
+            <input
+              type="tel"
+              pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+              placeholder=" 123-456-7890"
+              required
+            />
+            <label for="" class="etiquetas-contacto">Mensaje</label>
+            <textarea name="" id="" cols="5" rows="4" required></textarea>
+            <input type="submit">
+          </form>
+        </div>
+        <div class="contacto-caja">
+          <h2>CONTÁCTESE CON NOSTROS</h2>
+          <p>
+            Envienos su mensaje, o realize su pedido, un agente de ventas tomará
+            su orden y se pondrá en contacto con usted a la brevedad posible.
+          </p>
+
+          <h2>GPS</h2>
+          <p>
+            <ion-icon name="navigate-circle-outline"></ion-icon>
+            Av. Boyaca entre Sucre y Juan leon Mera
+          </p>
+          <p>
+            <ion-icon name="call-outline"></ion-icon>
+            01876547891 / 0998767671/ 0991127671
+          </p>
+          <p>
+            <ion-icon name="mail-outline"></ion-icon>
+            gps@gmail.com
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container-footer">
+        <div class="footer-box">
+          <div class="footer-logo">
+            <img src="img/logo.png" alt="" />
+          </div>
+          <div class="text-footer">
+            <p>
+              <i class="lni lni-facebook-original"></i> @gpsMachala
+            </p>
+            <p>
+              <i class="lni lni-instagram-filled"></i> @gpsMachala1
+            </p>
+            <p>
+              <i class="lni lni-youtube"></i> @gps          
+             </p>
+          </div>
+        </div>
+        <div class="footer-box">
+          <h2>Encuentranos</h2>
+          <a href="">Avn. Boyaca Romero</a>
+        </div>
+        <div class="footer-box">
+          <h2>Compañia</h2>
+          <a href="Nosotros">Nosotros</a>
+          <a href="Servicios">Servicios</a>
+          <a href="Inicio">Inicio</a>
+        </div>
+        <div class="footer-box">
+          <h2>Soporte y Ayuda</h2>
+          <a href="">Telefono: 099875649</a>
+          <a href="">Correo : gps@gmail.com</a>
+        </div>
+      </div>
+
+      <div class="box-copyrigth">
+        <hr />
+        <p>Todos los derechos reservados © 2022 <b>GPS</b></p>
+      </div>
+    </footer>
+  </body>
+</html>
